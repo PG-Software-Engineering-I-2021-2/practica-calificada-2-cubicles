@@ -1,25 +1,35 @@
-public class Student {
-    private String _Nombre;
-    private int _Tipo;
-    private int _notaBase =11;
-    static final int Pregado = 0;
-    static final int Maestria = 1;
-    static final int Doctorado = 2;
+abstract public class Student {
+    int _notaBase = 11;
+    abstract int Grado();
 
-    Student(int type, String nombre) {
-        _Tipo = type;
-        _Nombre = nombre;
+}
+
+class Pregado extends Student {
+    private String _Nombre;
+    Pregado(String Nombre) {
+        this._Nombre = Nombre;
     }
-    int Grado() {
-        switch (_Tipo) {
-            case Pregado:
-                return _notaBase;
-            case Maestria:
-                return _notaBase + 1;
-            case Doctorado:
-                return _notaBase + 2;
-            default:
-                throw new RuntimeException("Empleado incorrecto");
-        }
+    public int Grado() {
+        return _notaBase;
+    }
+}
+
+class Maestria extends Student {
+    private String _Nombre;
+    Maestria(String Nombre) {
+        this._Nombre = Nombre;
+    }
+    public int Grado() {
+        return _notaBase + 1;
+    }
+}
+
+class Doctorado extends Student {
+    private String _Nombre;
+    Maestria(String Nombre) {
+        this._Nombre = Nombre;
+    }
+    public int Grado() {
+        return _notaBase + 2;
     }
 }
