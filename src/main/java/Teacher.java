@@ -5,9 +5,11 @@ abstract public class Teacher {
 
     abstract int Sueldo();
     abstract String Nombre();
+    abstract boolean getExtraPoint();
 }
 
 class ProfesorTP extends Teacher {
+    private boolean isExtraPoint = false;
     private String _Nombre;
     ProfesorTP(String nombre){
         this._Nombre = nombre;
@@ -19,9 +21,14 @@ class ProfesorTP extends Teacher {
     public String Nombre() {
         return _Nombre;
     }
+
+    public boolean getExtraPoint() {
+        return isExtraPoint;
+    }
 }
 
 class ProfesorTC extends Teacher {
+    private boolean isExtraPoint = true;
     private String _Nombre;
 
     ProfesorTC(String nombre){
@@ -33,9 +40,13 @@ class ProfesorTC extends Teacher {
     public String Nombre() {
         return _Nombre;
     }
+    public boolean getExtraPoint() {
+        return isExtraPoint;
+    }
 }
 
 class Administrativo extends Teacher {
+    private boolean isExtraPoint = false;
     private String _Nombre;
     Administrativo(String nombre){
         this._Nombre = nombre;
@@ -45,6 +56,9 @@ class Administrativo extends Teacher {
     }
     public String Nombre() {
         return _Nombre;
+    }
+    public boolean getExtraPoint() {
+        return isExtraPoint;
     }
 }
 
