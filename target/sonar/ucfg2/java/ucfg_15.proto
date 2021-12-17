@@ -1,0 +1,112 @@
+
+3Principal#printExtraPointTeachers(Ljava/util/Map;)Ij
+`/Users/jesussalazar/Documents/GitHub/practica-calificada-2-cubicles/src/main/java/Principal.java> >(&"9*‚
+2j
+`/Users/jesussalazar/Documents/GitHub/practica-calificada-2-cubicles/src/main/java/Principal.java@ @(L§
+°
+j
+`/Users/jesussalazar/Documents/GitHub/practica-calificada-2-cubicles/src/main/java/Principal.java@ @(L%
+ListOfTeachersjava.util.Map$Entry"__id*
+""¡
+æ
+j
+`/Users/jesussalazar/Documents/GitHub/practica-calificada-2-cubicles/src/main/java/Principal.java@ @(L%
+ListOfTeachersjava.util.Map$Entry"
+__arrayGet*
+
+%0java.util.Set*
+""*
+8
+1*Ω
+3j
+`/Users/jesussalazar/Documents/GitHub/practica-calificada-2-cubicles/src/main/java/Principal.javaC C(3é
+ã
+j
+`/Users/jesussalazar/Documents/GitHub/practica-calificada-2-cubicles/src/main/java/Principal.javaC C(3
+teacherPair"__id*
+""≤
+Ø
+j
+`/Users/jesussalazar/Documents/GitHub/practica-calificada-2-cubicles/src/main/java/Principal.javaC C(3
+teacherPair"
+__arrayGet*
+
+teachersjava.util.List*
+""*
+2
+5*ô
+4j
+`/Users/jesussalazar/Documents/GitHub/practica-calificada-2-cubicles/src/main/java/Principal.javaE E(ò
+ï
+j
+`/Users/jesussalazar/Documents/GitHub/practica-calificada-2-cubicles/src/main/java/Principal.javaE E("
+%4java.io.PrintStream"__id*
+""∫∑
+j
+`/Users/jesussalazar/Documents/GitHub/practica-calificada-2-cubicles/src/main/java/Principal.javaE+ E(:
+%5Teacher"Pair#first()Ljava/lang/Object;*
+
+teacherPair2first()∆√
+j
+`/Users/jesussalazar/Documents/GitHub/practica-calificada-2-cubicles/src/main/java/Principal.javaE+ E(C
+%6java.lang.String""Teacher#Nombre()Ljava/lang/String;*
+
+%5Teacher2Nombre()Å˛
+j
+`/Users/jesussalazar/Documents/GitHub/practica-calificada-2-cubicles/src/main/java/Principal.javaE E(D
+
+%7void"0java.io.PrintStream#println(Ljava/lang/String;)V*
+
+%4java.io.PrintStream*
+
+%6java.lang.String2println(Ljava/lang/String;)*
+3*¿
+5j
+`/Users/jesussalazar/Documents/GitHub/practica-calificada-2-cubicles/src/main/java/Principal.javaD D(∆√
+j
+`/Users/jesussalazar/Documents/GitHub/practica-calificada-2-cubicles/src/main/java/Principal.javaD D((
+%3java.lang.Boolean"Pair#second()Ljava/lang/Object;*
+
+teacherPair2second()*
+3
+4*è
+7j
+`/Users/jesussalazar/Documents/GitHub/practica-calificada-2-cubicles/src/main/java/Principal.javaB8 B(FÏÈ
+j
+`/Users/jesussalazar/Documents/GitHub/practica-calificada-2-cubicles/src/main/java/Principal.javaB8 B(Q
+%2java.util.List"0java.util.Map$Entry#getValue()Ljava/lang/Object;*'
+%
+ListOfTeachersjava.util.Map$Entry2
+getValue()©
+¶
+j
+`/Users/jesussalazar/Documents/GitHub/practica-calificada-2-cubicles/src/main/java/Principal.javaB B(R
+teachersjava.util.List"__id*
+
+%2java.util.List*
+3*Â
+8j
+`/Users/jesussalazar/Documents/GitHub/practica-calificada-2-cubicles/src/main/java/Principal.javaA A(ÎË
+j
+`/Users/jesussalazar/Documents/GitHub/practica-calificada-2-cubicles/src/main/java/Principal.javaA# A(:
+%1java.lang.Integer".java.util.Map$Entry#getKey()Ljava/lang/Object;*'
+%
+ListOfTeachersjava.util.Map$Entry2getKey()*
+2
+7*–
+9j
+`/Users/jesussalazar/Documents/GitHub/practica-calificada-2-cubicles/src/main/java/Principal.java@O @(ZŸ÷
+j
+`/Users/jesussalazar/Documents/GitHub/practica-calificada-2-cubicles/src/main/java/Principal.java@O @(e
+%0java.util.Set"'java.util.Map#entrySet()Ljava/util/Set;*
+
+TeacherListjava.util.Map2
+entrySet()*
+2*Â
+1j
+`/Users/jesussalazar/Documents/GitHub/practica-calificada-2-cubicles/src/main/java/Principal.javaK K("t
+j
+`/Users/jesussalazar/Documents/GitHub/practica-calificada-2-cubicles/src/main/java/Principal.javaK K(
+"":
+TeacherListjava.util.MapB
+	Principal

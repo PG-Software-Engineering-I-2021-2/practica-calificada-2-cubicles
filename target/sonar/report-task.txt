@@ -1,7 +1,7 @@
 organization=pg-software-engineering-i-2021-2
-projectKey=org.example:pratica-calificada-2-cubicles
+projectKey=org.example:practica-calificada-2-cubicles
 serverUrl=https://sonarcloud.io
 serverVersion=8.0.0.25558
-dashboardUrl=https://sonarcloud.io/dashboard?id=org.example%3Apratica-calificada-2-cubicles
-ceTaskId=AX3EPGN2WXRubuA7VLfh
-ceTaskUrl=https://sonarcloud.io/api/ce/task?id=AX3EPGN2WXRubuA7VLfh
+dashboardUrl=https://sonarcloud.io/dashboard?id=org.example%3Apractica-calificada-2-cubicles
+ceTaskId=AX3GDHBxqZ6t5gDLLGcC
+ceTaskUrl=https://sonarcloud.io/api/ce/task?id=AX3GDHBxqZ6t5gDLLGcC

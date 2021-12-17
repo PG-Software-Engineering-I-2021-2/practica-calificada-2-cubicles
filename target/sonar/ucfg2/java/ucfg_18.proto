@@ -1,0 +1,91 @@
+
+*Principal#isHasToIncreaseOneExtraPoint(Z)Zj
+`/Users/jesussalazar/Documents/GitHub/practica-calificada-2-cubicles/src/main/java/Principal.java^ ^(0"11*„
+2j
+`/Users/jesussalazar/Documents/GitHub/practica-calificada-2-cubicles/src/main/java/Principal.java_ _(L§
+°
+j
+`/Users/jesussalazar/Documents/GitHub/practica-calificada-2-cubicles/src/main/java/Principal.java_ _(L%
+yearlyTeachersjava.util.Map$Entry"__id*
+""¡
+æ
+j
+`/Users/jesussalazar/Documents/GitHub/practica-calificada-2-cubicles/src/main/java/Principal.java_ _(L%
+yearlyTeachersjava.util.Map$Entry"
+__arrayGet*
+
+%1java.util.Set*
+""*
+10
+1*Ω
+4j
+`/Users/jesussalazar/Documents/GitHub/practica-calificada-2-cubicles/src/main/java/Principal.javab b(3é
+ã
+j
+`/Users/jesussalazar/Documents/GitHub/practica-calificada-2-cubicles/src/main/java/Principal.javab b(3
+teacherPair"__id*
+""≤
+Ø
+j
+`/Users/jesussalazar/Documents/GitHub/practica-calificada-2-cubicles/src/main/java/Principal.javab b(3
+teacherPair"
+__arrayGet*
+
+teachersjava.util.List*
+""*
+2
+7*Ω
+7j
+`/Users/jesussalazar/Documents/GitHub/practica-calificada-2-cubicles/src/main/java/Principal.javac c(∆√
+j
+`/Users/jesussalazar/Documents/GitHub/practica-calificada-2-cubicles/src/main/java/Principal.javac c((
+%4java.lang.Boolean"Pair#second()Ljava/lang/Object;*
+
+teacherPair2second()*
+4*è
+9j
+`/Users/jesussalazar/Documents/GitHub/practica-calificada-2-cubicles/src/main/java/Principal.javaa8 a(FÏÈ
+j
+`/Users/jesussalazar/Documents/GitHub/practica-calificada-2-cubicles/src/main/java/Principal.javaa8 a(Q
+%3java.util.List"0java.util.Map$Entry#getValue()Ljava/lang/Object;*'
+%
+yearlyTeachersjava.util.Map$Entry2
+getValue()©
+¶
+j
+`/Users/jesussalazar/Documents/GitHub/practica-calificada-2-cubicles/src/main/java/Principal.javaa a(R
+teachersjava.util.List"__id*
+
+%3java.util.List*
+4*Ê
+10j
+`/Users/jesussalazar/Documents/GitHub/practica-calificada-2-cubicles/src/main/java/Principal.java` `(!ÎË
+j
+`/Users/jesussalazar/Documents/GitHub/practica-calificada-2-cubicles/src/main/java/Principal.java`% `(<
+%2java.lang.Integer".java.util.Map$Entry#getKey()Ljava/lang/Object;*'
+%
+yearlyTeachersjava.util.Map$Entry2getKey()*
+2
+9*˙
+11j
+`/Users/jesussalazar/Documents/GitHub/practica-calificada-2-cubicles/src/main/java/Principal.java_O _(_Ø
+¨
+j
+`/Users/jesussalazar/Documents/GitHub/practica-calificada-2-cubicles/src/main/java/Principal.java_O _(_
+%0java.util.Map"__id*#*!
+	Principal"
+allYearsTeachers–Õ
+j
+`/Users/jesussalazar/Documents/GitHub/practica-calificada-2-cubicles/src/main/java/Principal.java_O _(j
+%1java.util.Set"'java.util.Map#entrySet()Ljava/util/Set;*
+
+%0java.util.Map2
+entrySet()*
+2*Â
+1j
+`/Users/jesussalazar/Documents/GitHub/practica-calificada-2-cubicles/src/main/java/Principal.javal l()"t
+j
+`/Users/jesussalazar/Documents/GitHub/practica-calificada-2-cubicles/src/main/java/Principal.javal l(*
+"":
+""B
+	Principal

@@ -1,0 +1,35 @@
+
+/Principal#getGradesWeightSum(Ljava/util/List;)Ij
+`/Users/jesussalazar/Documents/GitHub/practica-calificada-2-cubicles/src/main/java/Principal.javaN N(""2*∆
+2j
+`/Users/jesussalazar/Documents/GitHub/practica-calificada-2-cubicles/src/main/java/Principal.javaP P(+ê
+ç
+j
+`/Users/jesussalazar/Documents/GitHub/practica-calificada-2-cubicles/src/main/java/Principal.javaP P(+
+	examGradePair"__id*
+""π
+∂
+j
+`/Users/jesussalazar/Documents/GitHub/practica-calificada-2-cubicles/src/main/java/Principal.javaP P(+
+	examGradePair"
+__arrayGet*!
+
+examsStudentsjava.util.List*
+""*
+3
+1*Ω
+3j
+`/Users/jesussalazar/Documents/GitHub/practica-calificada-2-cubicles/src/main/java/Principal.javaQ Q(∆√
+j
+`/Users/jesussalazar/Documents/GitHub/practica-calificada-2-cubicles/src/main/java/Principal.javaQ Q(0
+%0java.lang.Integer"Pair#first()Ljava/lang/Object;*
+
+	examGradePair2first()*
+2*Â
+1j
+`/Users/jesussalazar/Documents/GitHub/practica-calificada-2-cubicles/src/main/java/Principal.javaS S("t
+j
+`/Users/jesussalazar/Documents/GitHub/practica-calificada-2-cubicles/src/main/java/Principal.javaS S(
+"":
+examsStudentsjava.util.ListB
+	Principal

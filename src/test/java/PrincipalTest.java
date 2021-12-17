@@ -2,8 +2,10 @@
 import org.testng.Assert;
 import org.testng.annotations.Test;
 
+import java.util.AbstractMap;
 import java.util.Collections;
 import java.util.List;
+import java.util.Map;
 
 
 public class PrincipalTest {
@@ -170,5 +172,30 @@ public class PrincipalTest {
         final boolean                    hasReachedMinimumClasses = true;
 
         Assert.assertEquals(10, studentGradeCalculator.calculateGrades(examsGrades, hasReachedMinimumClasses));
+    }
+
+    @Test
+    void imprimir_nombre_profesores_con_puntos_extra() {
+        Principal studentGradeCalculator = new Principal(2020);
+        // studentGradeCalculator.printExtraPointTeachers();
+        final Map<Integer, List<Pair<Teacher, Boolean>>> TeacherList = Map.ofEntries(
+                new AbstractMap.SimpleImmutableEntry<>(
+                        2020,
+                        List.of(
+                                new Pair<>( new ProfesorTC("Josefina"), true),
+                                new Pair<>( new ProfesorTC("Carlos"), true),
+                                new Pair<>( new ProfesorTC("Edufasio"), true)
+                        )
+                ),
+                new AbstractMap.SimpleImmutableEntry<>(
+                        2019,
+                        List.of(
+                                new Pair<>( new ProfesorTC("Eduarda"), true),
+                                new Pair<>( new ProfesorTC("Abelardo"), false),
+                                new Pair<>( new ProfesorTC("Francisca"), false)
+                        )
+                )
+        );
+        Assert.assertEquals(3, studentGradeCalculator.printExtraPointTeachers(TeacherList));
     }
 }

@@ -4,25 +4,34 @@ abstract public class Teacher {
     int _bonus = 100;
 
     abstract int Sueldo();
+    abstract String Nombre();
 }
 
-class ProfesorTp extends Teacher {
+class ProfesorTP extends Teacher {
     private String _Nombre;
-    ProfesorTp(String nombre){
+    ProfesorTP(String nombre){
         this._Nombre = nombre;
     }
     public int Sueldo() {
         return _salarioBaseMensual;
     }
+
+    public String Nombre() {
+        return _Nombre;
+    }
 }
 
 class ProfesorTC extends Teacher {
     private String _Nombre;
+
     ProfesorTC(String nombre){
         this._Nombre = nombre;
     }
     public int Sueldo() {
         return _salarioBaseMensual + _comision;
+    }
+    public String Nombre() {
+        return _Nombre;
     }
 }
 
@@ -34,4 +43,8 @@ class Administrativo extends Teacher {
     public int Sueldo() {
         return _salarioBaseMensual + _bonus;
     }
+    public String Nombre() {
+        return _Nombre;
+    }
 }
+
